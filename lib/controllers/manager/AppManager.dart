@@ -86,6 +86,7 @@ class AppManager extends ChangeNotifier {
           produtos.forEach((element) {
             print(element);
           });
+          searchProdutos = produtos;
           notifyListeners();
           return true;
         }
